@@ -1,0 +1,10 @@
+logs/
+cache/
+*.log
+crash-reports/
+libraries/
+logs/
+versions/
+.console_history
+server.jar
+server.log

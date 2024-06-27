@@ -1,0 +1,550 @@
+#all time in seconds
+startdelay: 30
+#make sure interval > wait or =
+interval: 900
+wait: 300
+#number of player needed to start challenge
+playercount: 5
+bossbar: true
+worlds:
+  - 'world'
+  - 'world_nether'
+  - 'world_the_end'
+top:
+  enable: true
+  message: '&6Top Challengers in %type% Challenge'
+#number of ranking
+rank: 3
+message:
+  title: '&2&lYou Won'
+#add or remove challenge to enable or disable
+challenges:
+  - consume
+  - blockbreak
+  - dropitem
+  - fish
+  - craft
+  - forge
+  - kill
+  - trivia
+  - mini
+  - damage
+consume:
+  items:
+    - 'COOKED_MUTTON'
+    - 'COOKED_PORKCHOP'
+    - 'COOKED_SALMON'
+    - 'STEAK'
+    - 'BAKED_POTATO'
+    - 'COOKED_CHICKEN'
+    - 'COOKED_COD'
+    - 'COOKED_RABBIT'
+    - 'POTATO'
+    - 'RAW_BEEF'
+    - 'RAW_CHICKEN'
+    - 'RAW_MUTTON'
+    - 'RAW_PORKCHOP'
+    - 'RAW_RABBIT'
+    - 'RAW_COD'
+    - 'RAW_SALMON'
+    - 'ENCHANTED_GOLDEN_APPLE'
+    - 'GOLDEN_APPLE'
+    - 'APPLE'
+    - 'GOLDEN_CARROT'
+    - 'BEETROOT'
+    - 'BEETROOT_SOUP'
+    - 'BREAD'
+    - 'CARROT'
+    - 'MUSHROOM_STEW'
+    - 'RABBIT_STEW'
+    - 'SUSPICIOUS_STEW'
+    - 'DRIED_KELP'
+    - 'MELON_SLICE'
+    - 'POISONOUS_POTATO'
+    - 'PUMPKIN_PIE'
+    - 'SWEET_BERRIES'
+    - 'COOKIE'
+    - 'GLOW_BERRIES'
+    - 'HONEY_BOTTLE'
+    - 'ROTTEN_FLESH'
+    - 'SPIDER_EYE'
+    - 'TROPICAL_FISH'
+  reward:
+    - 'eco give %player% 100'
+  reward2:
+    - 'eco give %player% 100'
+  reward5:
+    - 'eco give %player% 100'
+  min: 1
+  max: 5
+  message:
+    challenge: 
+      - ' '
+      - '                       &6&lRandomChallenge'
+      - ' '
+      - '&2&l[!] First Player to &cEat &2&l%num% %item% will win!!'
+      - ' '
+    winner: '&2&l%player% won the &cEat&2&l challenge!!'
+    bossbar: '&2&l[!] First Player to &cEat &2&l%num% %item% will win!!'
+    none: '&c&lNo one won the &cEat&2&l challenge!!'
+blockbreak:
+  items:
+    - 'STONE'
+    - 'COAL_ORE'
+    - 'IRON_ORE'
+    - 'COPPER_ORE'
+    - 'GOLD_ORE'
+    - 'REDSTONE_ORE'
+    - 'DIAMOND_ORE'
+    - 'EMERALD_ORE'
+    - 'NETHER_QUARTZ_ORE'
+    - 'ANCIENT_DEBRIS'
+    - 'GRAVEL'
+    - 'SAND'
+    - 'CLAY'
+    - 'DIRT'
+    - 'GRASS_BLOCK'
+    - 'PODZOL'
+    - 'MYCELIUM'
+    - 'SANDSTONE'
+    - 'SOUL_SAND'
+    - 'NETHERRACK'
+    - 'END_STONE'
+    - 'OBSIDIAN'
+    - 'MOSSY_COBBLESTONE'
+    - 'COBBLESTONE'
+    - 'BRICKS'
+    - 'NETHER_BRICKS'
+    - 'POLISHED_GRANITE'
+    - 'POLISHED_DIORITE'
+    - 'POLISHED_ANDESITE'
+    - 'POLISHED_BLACKSTONE'
+    - 'BLACKSTONE'
+    - 'BASALT'
+    - 'CRIMSON_NYLIUM'
+    - 'WARPED_NYLIUM'
+    - 'QUARTZ_BLOCK'
+    - 'PRISMARINE'
+    - 'SEA_LANTERN'
+    - 'END_STONE_BRICKS'
+    - 'MAGMA_BLOCK'
+    - 'PURPUR_BLOCK'
+    - 'RED_NETHER_BRICKS'
+    - 'SHROOMLIGHT'
+    - 'GLOWSTONE'
+    - 'NETHER_WART_BLOCK'
+    - 'ANCIENT_DEBRIS'
+    - 'PACKED_ICE'
+    - 'BLUE_ICE'
+    - 'CRYING_OBSIDIAN'
+    - 'HONEY_BLOCK'
+  reward:
+    - 'eco give %player% 100'
+  min: 1
+  max: 5
+  message:
+    challenge:
+      - ' '
+      - '                       &6&lRandomChallenge'
+      - ' '
+      - '&2&l[!] First Player to &cBreak &2&l%num% %item% will win!!'
+      - ' '
+    winner: '&2&l%player% won the &cBreak&2&l challenge!!'
+    bossbar: '&2&l[!] First Player to &cBreak &2&l%num% %item% will win!!'
+    none: '&c&lNo one won the &cBreak&2&l challenge!!'
+dropitem:
+  items:
+    - 'DIAMOND_PICKAXE'
+    - 'IRON_SWORD'
+    - 'BOW'
+    - 'ARROW'
+    - 'SHIELD'
+    - 'BREAD'
+    - 'TORCH'
+    - 'WATER_BUCKET'
+    - 'LAVA_BUCKET'
+    - 'ENDER_PEARL'
+    - 'DIAMOND_SHOVEL'
+    - 'IRON_AXE'
+    - 'COMPASS'
+    - 'CLOCK'
+    - 'MAGMA_BLOCK'
+    - 'DIAMOND_BOOST'
+    - 'IRON_INGOT'
+    - 'STICK'
+    - 'CRAFTING_TABLE'
+    - 'FURNACE'
+    - 'ANVIL'
+    - 'ENDER_CHEST'
+    - 'ENDER_EYE'
+    - 'OBSIDIAN'
+    - 'FLINT_AND_STEEL'
+    - 'COBBLESTONE'
+    - 'REDSTONE'
+    - 'REDSTONE_TORCH'
+    - 'DIAMOND'
+    - 'GOLDEN_APPLES'
+    - 'NAME_TAG'
+    - 'SADDLE'
+    - 'LEAD'
+    - 'BONE'
+    - 'STRING'
+    - 'GUNPOWDER'
+    - 'SLIME_BALL'
+    - 'BLAZE_ROD'
+    - 'GHAST_TEAR'
+    - 'NETHER_WART'
+    - 'MILK_BUCKET'
+    - 'GOLDEN_CARROT'
+    - 'PUMPKIN_PIE'
+    - 'ENDER_CHEST'
+    - 'LAPIS_LAZULI'
+    - 'INK_SAC'
+    - 'FEATHER'
+    - 'LEATHER'
+    - 'PAPER'
+  reward:
+    - 'eco give %player% 100'
+  min: 1
+  max: 5
+  message:
+    challenge:
+      - ' '
+      - '                       &6&lRandomChallenge'
+      - ' '
+      - '&2&l[!] First Player to &cDrop &2&l%num% %item% will win!!'
+      - ' '
+    winner: '&2&l%player% won the &cDrop&2&l challenge!!'
+    bossbar: '&2&l[!] First Player to &cDrop &2&l%num% %item% will win!!'
+    none: '&c&lNo one won the &cDrop&2&l challenge!!'
+fish:
+  items:
+    - 'COD'
+    - 'RAW_SALMON'
+    - 'TROPICAL_FISH'
+    - 'PUFFERFISH'
+    - 'BOW'
+    - 'FISHING_ROD'
+    - 'NAME_TAG'
+    - 'SADDLE'
+    - 'LILY_PAD'
+    - 'BOWL'
+    - 'LEATHER'
+    - 'LEATHER_BOOTS'
+    - 'ROTTEN_FLESH'
+    - 'STICK'
+    - 'STRING'
+    - 'WATER_BOTTLE'
+    - 'BONE'
+    - 'INK_SAC'
+    - 'TRIPWIRE_HOOK'
+  reward:
+    - 'eco give %player% 100'
+  min: 1
+  max: 2
+  message:
+    challenge:
+      - ' '
+      - '                       &6&lRandomChallenge'
+      - ' '
+      - '&2&l[!] First Player to &cFish &2&l%num% %item% will win!!'
+      - ' '
+    winner: '&2&l%player% won the &cFish&2&l challenge!!'
+    bossbar: '&2&l[!] First Player to &cFish &2&l%num% %item% will win!!'
+    none: '&c&lNo one won the &cFish&2&l challenge!!'
+craft:
+  items:
+    - 'OAK_PLANKS'
+    - 'STICK'
+    - 'CRAFTING_TABLE'
+    - 'WOODEN_PICKAXE'
+    - 'WOODEN_AXE'
+    - 'WOODEN_SHOVEL'
+    - 'WOODEN_SWORD'
+    - 'WOODEN_HOE'
+    - 'TORCH'
+    - 'FURNACE'
+    - 'STONE_PICKAXE'
+    - 'STONE_AXE'
+    - 'STONE_SHOVEL'
+    - 'STONE_SWORD'
+    - 'STONE_HOE'
+    - 'IRON_INGOT'
+    - 'IRON_PICKAXE'
+    - 'IRON_AXE'
+    - 'IRON_SHOVEL'
+    - 'IRON_SWORD'
+    - 'IRON_HOE'
+    - 'GOLD_INGOT'
+    - 'GOLDEN_PICKAXE'
+    - 'GOLDEN_AXE'
+    - 'GOLDEN_SHOVEL'
+    - 'GOLDEN_SWORD'
+    - 'GOLDEN_HOE'
+    - 'DIAMOND_PICKAXE'
+    - 'DIAMOND_AXE'
+    - 'DIAMOND_SHOVEL'
+    - 'DIAMOND_SWORD'
+    - 'DIAMOND_HOE'
+    - 'BOW'
+    - 'ARROW'
+    - 'LEATHER_BOOTS'
+    - 'LEATHER_CHESTPLATE'
+    - 'LEATHER_LEGGINGS'
+    - 'LEATHER_HELMET'
+    - 'IRON_HELMET'
+    - 'IRON_CHESTPLATE'
+    - 'IRON_LEGGINGS'
+    - 'IRON_BOOTS'
+    - 'ENCHANTING_TABLE'
+    - 'BED'
+    - 'COMPASS'
+    - 'BOOKSHELF'
+  reward:
+    - 'eco give %player% 100'
+  min: 1
+  max: 5
+  message:
+    challenge:
+      - ' '
+      - '                       &6&lRandomChallenge'
+      - ' '
+      - '&2&l[!] First Player to &cCraft &2&l%num% %item% will win!!'
+      - ' '
+    winner: '&2&l%player% won the &cCraft&2&l challenge!!'
+    bossbar: '&2&l[!] First Player to &cCraft &2&l%num% %item% will win!!'
+    none: '&c&lNo one won the &cCraft&2&l challenge!!'
+forge:
+  items:
+    - 'IRON_INGOT'
+    - 'GOLD_INGOT'
+    - 'IRON_INGOT'
+    - 'GOLD_INGOT'
+    - 'COPPER_INGOT'
+    - 'COPPER_INGOT'
+    - 'IRON_INGOT'
+    - 'GOLD_INGOT'
+    - 'GLASS'
+    - 'STONE'
+    - 'BRICK'
+    - 'NETHER_BRICK'
+    - 'SMOOTH_STONE'
+    - 'COOKED_CHICKEN'
+    - 'COOKED_BEEF'
+    - 'COOKED_PORKCHOP'
+    - 'COOKED_COD'
+    - 'COOKED_SALMON'
+    - 'COOKED_MUTTON'
+    - 'COOKED_RABBIT'
+    - 'GLASS'
+    - 'GREEN_DYE'
+    - 'DRIED_KELP'
+    - 'LIME_DYE'
+    - 'CHARCOAL'
+    - 'POPPED_CHORUS_FRUIT'
+    - 'SPONGE'
+
+  reward:
+    - 'eco give %player% 100'
+  min: 1
+  max: 5
+  message:
+    challenge: 
+      - ' '
+      - '                       &6&lRandomChallenge'
+      - ' '
+      - '&2&l[!] First Player to &cForge &2&l%num% %item% will win!!'
+      - ' '
+    winner: '&2&l%player% won the &cForge&2&l challenge!!'
+    bossbar: '&2&l[!] First Player to &cForge &2&l%num% %item% will win!!'
+    none: '&c&lNo one won the &cForge&2&l challenge!!'
+kill:
+  items:
+    - 'zombie'
+    - 'skeleton'
+    - 'creeper'
+    - 'spider'
+    - 'enderman'
+    - 'cave_spider'
+    - 'blaze'
+    - 'witch'
+    - 'slime'
+    - 'magma_cube'
+    - 'husk'
+    - 'stray'
+    - 'phantom'
+    - 'drowned'
+    - 'silverfish'
+    - 'shulker'
+    - 'polar_bear'
+    - 'iron_golem' 
+    - 'zombified_piglin'
+    - 'wither_skeleton'
+    - 'strider'
+    - 'pig'
+    - 'cow'
+    - 'chicken'
+    - 'sheep'
+    - 'wolf'
+    - 'bee'
+    - 'hoglin'
+    - 'piglin'
+    - 'piglin_brute'
+    - 'strider'
+    - 'snow_golem' 
+    - 'endermite'
+
+  reward:
+    - 'eco give %player% 100'
+  min: 1
+  max: 5
+  message:
+    challenge:
+      - ' '
+      - '                       &6&lRandomChallenge'
+      - ' '
+      - '&2&l[!] First Player to &cKill &2&l%num% %item% will win!!'
+      - ' '
+    winner: '&2&l%player% won the &cKill&2&l challenge!!'
+    bossbar: '&2&l[!] First Player to &cKill &2&l%num% %item% will win!!'
+    none: '&c&lNo one won the &cKill&2&l challenge!!'
+    
+mini:
+  items:
+    - 'JUMP'
+    - 'BELL_RING'
+    - 'ANIMALS_BRED'
+    - 'CAKE_SLICES_EATEN'
+    - 'CAULDRON_FILLED'
+    - 'CHEST_OPENED'
+    - 'NOTEBLOCK_TUNED'
+    - 'FLOWER_POTTED'
+    - 'TRADED_WITH_VILLAGER'
+    - 'DISPENSER_INSPECTED'
+    - 'DROPPER_INSPECTED'
+    - 'ENDERCHEST_OPENED'
+  reward:
+    - 'eco give %player% 100'
+  min: 1
+  max: 10
+  replace:
+    CAKE_SLICES_EATEN: 'EAT_CAKE_SLICE'
+    BELL_RING: 'RING_BELL'
+    ANIMALS_BRED: 'BRED_ANIMALS'
+    CAULDRON_FILLED: 'FILL_CAULDRON'
+    CHEST_OPENED: 'OPEN_CHEST'
+    NOTEBLOCK_TUNED: 'TUNE_NOTEBLOCK'
+    FLOWER_POTTED: 'PUT_FLOWER_IN_POT'
+    DISPENSER_INSPECTED: 'OPEN_DISPENSER'
+    DROPPER_INSPECTED: 'OPEN_DROPPER'
+    ENDERCHEST_OPENED: 'OPEN_ENDERCHEST'
+  message:
+    challenge:
+      - ' '
+      - '                       &6&lRandomChallenge'
+      - ' '
+      - '&2&l[!] First Player to &c%item% &2&l%num% times will win!!'
+      - ' '
+    winner: '&2&l%player% won the &c%item%&2&l challenge!!'
+    bossbar: '&2&l[!] First Player to &c%item% &2&l%num% times will win!!'
+    none: '&c&lNo one won the &cmini&2&l challenge!!'
+    
+damage:
+  items:
+    - 'FALL'
+    - 'BLOCK_EXPLOSION'
+    - 'CONTACT'
+    - 'CRAMMING'
+    - 'DRAGON_BREATH'
+    - 'DROWNING'
+    - 'ENTITY_ATTACK'
+    - 'ENTITY_EXPLOSION'
+    - 'FALLING_BLOCK'
+    - 'FIRE'
+    - 'FIRE_TICK'
+    - 'FLY_INTO_WALL'
+    - 'FREEZE'
+    - 'HOT_FLOOR'
+    - 'LAVA'
+    - 'LIGHTNING'
+    - 'MAGIC'
+    - 'POISON'
+    - 'PROJECTILE'
+    - 'SONIC_BOOM'
+    - 'STARVATION'
+    - 'SUFFOCATION'
+    - 'THORNS'
+    - 'WITHER'
+    - 'VOID'
+  reward:
+    - 'eco give %player% 100'
+  min: 1
+  max: 2
+  message:
+    challenge:
+      - ' '
+      - '                       &6&lRandomChallenge'
+      - ' '
+      - '&2&l[!] First Player to &cTake Damage &2&l%num% time from %item% will win!!'
+      - ' '
+    winner: '&2&l%player% won the &cDamage&2&l challenge!!'
+    bossbar: '&2&l[!] First Player to &cTake Damage &2&l%num% time from %item% will win!!'
+    none: '&c&lNo one won the &cDamage&2&l challenge!!'    
+
+trivia:
+  reward:
+    - 'eco give %player% 100'
+  message:
+    challenge:
+      - ' '
+      - '                       &6&lRandomChallenge'
+      - ' '
+      -  '&2&l[!]&cTrivia&2&l %item% '
+      - ' '
+    winner: '&2&l%player% won the &cTrivia&2&l challenge!!'
+    bossbar: '&2&l[!]&cTrivia&2&l %item% '
+    none: '&c&lNo one won the &cTrivia&2&l challenge!!'
+1:
+  Q: 'what is the server name?'
+  A:
+    - 'who knows'
+    - 'dont know'
+#custom challenge area
+events:
+  consumeevent:
+    - consume
+  blockbreakevent:
+    - blockbreak
+    - obsidian
+  dropitemevent:
+    - dropitem 
+  fistevent:
+    - fish 
+  deathevent:
+    - kill
+  furnaceevent:
+    - forge
+  craftingevent:
+    - craft
+  damageevent:
+    - damage
+#also add in the main challenge list to enable
+list:
+  - 'obsidian'
+obsidian:
+  items:
+    - 'OBSIDIAN'
+  reward:
+    - 'eco give %player% 10'
+  min: 5
+  max: 10
+  message:
+    challenge:
+      - ' '
+      - '                       &6&lRandomChallenge'
+      - ' '
+      - '&2&l[!] First Player to &cBreak &2&l%num% obsidian will win!!'
+      - ' '
+    winner: '&2&l%player% won the &cObsidian Rush&2&l challenge!!'
+    bossbar: '&2&l[!] First Player to &cBreak &2&l%num% obsidian will win!!'
+    none: '&c&lNo one won the &cObsidian Rush&2&l challenge!!'
