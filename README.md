@@ -28,14 +28,8 @@ For Windows:
 curl -o server.jar https://api.purpurmc.org/v2/purpur/1.20.6/latest/download
 ```
 
-Then run the following command:
-
-```
-java -Xmx16G -Xms4G -jar server.jar -- nogui
-```
-
 ### Start the server
 
-```
-./start-server.sh
-```
+Or you can use the `./start-server.sh` script to start the server in Linux.
+
+Or the `./start-server.bat` script to start the server in Windows.
