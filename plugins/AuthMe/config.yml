@@ -120,7 +120,7 @@ settings:
     # typical communication with the database to happen synchronously, set this to false
     useAsyncTasks: true
     # The name of the server, used in some placeholders.
-    serverName: Your Minecraft Server
+    serverName: MinhDevTree Server
     restrictions:
         # Can not authenticated players chat?
         # Keep in mind that this feature also blocks all commands not
@@ -129,16 +129,16 @@ settings:
         # Hide the chat log from players who are not authenticated?
         hideChat: false
         # Allowed commands for unauthenticated players
-        allowCommands: 
-        - /login
-        - /log
-        - /l
-        - /register
-        - /reg
-        - /email
-        - /captcha
-        - /2fa
-        - /totp
+        allowCommands:
+            - /login
+            - /log
+            - /l
+            - /register
+            - /reg
+            - /email
+            - /captcha
+            - /2fa
+            - /totp
         # Max number of allowed registrations per IP
         # The value 0 means an unlimited number of registrations!
         maxRegPerIp: 1
@@ -159,10 +159,10 @@ settings:
             enabled: false
             # WorldNames where we need to force the spawn location
             # Case-sensitive!
-            worlds: 
-            - world
-            - world_nether
-            - world_the_end
+            worlds:
+                - world
+                - world_nether
+                - world_the_end
         # This option will save the quit location of the players.
         SaveQuitLocation: false
         # To activate the restricted user feature you need
@@ -190,7 +190,7 @@ settings:
         allowMovement: false
         # After how many seconds should players who fail to login or register
         # be kicked? Set to 0 to disable.
-        timeout: 30
+        timeout: 60
         # Regex pattern of allowed characters in the player name.
         allowedNicknameCharacters: '[a-zA-Z0-9_]*'
         # How far can unregistered players walk?
@@ -262,14 +262,14 @@ settings:
         # - '123456'
         # - 'password'
         # - 'help'
-        unsafePasswords: 
-        - '123456'
-        - password
-        - qwerty
-        - '12345'
-        - '54321'
-        - '123456789'
-        - help
+        unsafePasswords:
+            - '123456'
+            - password
+            - qwerty
+            - '12345'
+            - '54321'
+            - '123456789'
+            - help
     registration:
         # Enable registration on the server?
         enabled: true
@@ -368,8 +368,8 @@ Email:
     # Delay in minute for the recall scheduler
     delayRecall: 5
     # Blacklist these domains for emails
-    emailBlacklisted: 
-    - 10minutemail.com
+    emailBlacklisted:
+        - 10minutemail.com
     # Whitelist ONLY these domains for emails
     emailWhitelisted: []
     # Send the new password drawn in an image?
@@ -404,14 +404,14 @@ Protection:
     # https://dev.maxmind.com/geoip/legacy/codes/iso3166/
     # Use "LOCALHOST" for local addresses.
     # PLEASE USE QUOTES!
-    countries: 
-    - US
-    - GB
-    - LOCALHOST
+    countries:
+        - US
+        - GB
+        - LOCALHOST
     # Countries not allowed to join the server and register
     # PLEASE USE QUOTES!
-    countriesBlacklist: 
-    - A1
+    countriesBlacklist:
+        - A1
     # Do we need to enable automatic antibot system?
     enableAntiBot: true
     # The interval in seconds

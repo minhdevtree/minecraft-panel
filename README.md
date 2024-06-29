@@ -1,4 +1,4 @@
-# minecraft-panel
+# Minecraft Panel
 
 ## Author
 
@@ -6,7 +6,9 @@
 
 ## Description
 
-A web-based Minecraft server management panel. Using CodeSpaces to host and run the server.
+A Minecraft server panel. Using CodeSpaces to host and run the server or you can run it locally by following the instructions below.
+
+This is my server data backup and not for fresh installation.
 
 ### Note
 
@@ -30,6 +32,6 @@ curl -o server.jar https://api.purpurmc.org/v2/purpur/1.20.6/latest/download
 
 ### Start the server
 
-Or you can use the `./start-server.sh` script to start the server in Linux.
+You can use the `./start-server.sh` script to start the server in Linux.
 
 Or the `./start-server.bat` script to start the server in Windows.
