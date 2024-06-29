@@ -32,7 +32,7 @@ settings:
     # Note: Available command types for restartCommands -> normal, time, proxy, proxydelay
     # Note: Available days for day-specific commands -> [MONDAY], [TUESDAY], [WEDNESDAY], [THURSDAY], [FRIDAY], [SATURDAY], [SUNDAY] **READ** The day tag must come after the command type (except normal)
   restartCommands:
-  - '[time:30] broadcast The server will restart in 30 seconds. Save your progress!'
+  # - '[time:30] broadcast The server will restart in 30 seconds. Save your progress!'
   - save-all
   - restart
         #- '[proxy:5] command to execute via your proxy 5 seconds before restart'
