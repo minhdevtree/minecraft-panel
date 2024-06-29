@@ -1,11 +1,12 @@
 use-minimessage: true
 title: '<rainbow><b>MinhDevTree Server</b></rainbow>'
 lines:
-    - '<st><white>                   </white></st>'
+    - '<st><white>                             </white></st>'
     - ''
     - '<green>Hello, </green><yellow>{player}</yellow>'
     - '<aqua>Online Players: </aqua><yellow>{online}</yellow>/<yellow>{max_players}</yellow>'
     - '<aqua>Position: </aqua><red>%player_x%</red>  <green>%player_y%</green>  <blue>%player_z%</blue>'
-    - '<aqua>Ping: <yellow>{ping}</yellow></aqua>'
+    - '<aqua>Ping: </aqua><yellow>{ping}</yellow>'
+    - '<aqua>Role: </aqua><yellow>%luckperms_primary_group_name%</yellow>'
     - ''
-    - '<st><white>                   </white></st>'
+    - '<st><white>                             </white></st>'

@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1719677709139
+  login: 1719677488925
+money: '0'
+last-account-name: MinhDepTraiSo01
+logoutlocation:
+  world: b010e279-51e4-4e8b-b176-72702b54ae11
+  world-name: world
+  x: 35.154002560323164
+  y: 88.0
+  z: -1315.3315249921404
+  yaw: 6.5418701171875
+  pitch: 22.689491271972656
